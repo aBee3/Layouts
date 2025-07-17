@@ -22,6 +22,15 @@ header{
     height: 70px;
 }
 
+.page{
+    display: flex;
+    width:100%;
+    gap:0%;
+    box-sizing: border-box;
+    margin:0;
+    
+}
+
 .footer {
   background-color: #102830;
   color: #ccc;
@@ -97,6 +106,7 @@ header{
   max-width: 1200px;
   margin: auto;
   padding: 2rem 1rem;
+  flex-grow: 1;
 }
 
 /* === Navigation Bar === */
@@ -275,7 +285,7 @@ header{
 }
 
 .git:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) translateX(5px);
 }
 
 
